@@ -8,3 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD_EXTENSIONS OFF)
 
 add_executable(hii Can_main.cpp)  
+
+target_include_directories(app PUBLIC ${/root/.jenkins/workspace/now/Poco} /include}
