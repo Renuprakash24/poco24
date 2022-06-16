@@ -11,4 +11,4 @@ add_executable(hii Can_main.cpp)
 
 
 
-target_include_directories(my_program PUBLIC poco24/Poco)
+target_include_directories(hii PUBLIC poco24/Poco)
