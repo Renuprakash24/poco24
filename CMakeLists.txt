@@ -11,4 +11,4 @@ add_executable(hii Can_main.cpp)
 
 
 
-target_include_directories(hii Interface Poco)
+target_include_directories(hii INTERFACE Poco)
